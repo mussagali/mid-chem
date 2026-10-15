@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T20:16:54.9799660Z",
+  "title": "Design System: CHEM101",
+  "extensions": {
+    "motion": [
+      {
+        "value": "0.2s",
+        "name": "state-transition",
+        "purpose": "Background/color controls and navigation. Removed for reduced-motion preference."
+      },
+      {
+        "value": "ease-out",
+        "name": "drawer-easing",
+        "purpose": "Mobile navigation transform."
+      }
+    ],
+    "colorMeta": {
+      "paper": {
+        "tonalRamp": [
+          "oklch(15% 0.01 95)",
+          "oklch(26% 0.01 95)",
+          "oklch(38% 0.01 95)",
+          "oklch(49% 0.01 95)",
+          "oklch(61% 0.01 95)",
+          "oklch(72% 0.01 95)",
+          "oklch(84% 0.01 95)",
+          "oklch(95% 0.01 95)"
+        ],
+        "role": "neutral",
+        "displayName": "Workbook Paper"
+      },
+      "ink": {
+        "tonalRamp": [
+          "oklch(15% 0.025 155)",
+          "oklch(26% 0.025 155)",
+          "oklch(38% 0.025 155)",
+          "oklch(49% 0.025 155)",
+          "oklch(61% 0.025 155)",
+          "oklch(72% 0.025 155)",
+          "oklch(84% 0.025 155)",
+          "oklch(95% 0.025 155)"
+        ],
+        "role": "neutral",
+        "displayName": "Reading Ink"
+      },
+      "green": {
+        "tonalRamp": [
+          "oklch(15% 0.05 160)",
+          "oklch(26% 0.05 160)",
+          "oklch(38% 0.05 160)",
+          "oklch(49% 0.05 160)",
+          "oklch(61% 0.05 160)",
+          "oklch(72% 0.05 160)",
+          "oklch(84% 0.05 160)",
+          "oklch(95% 0.05 160)"
+        ],
+        "role": "primary",
+        "displayName": "Forest Ink"
+      },
+      "muted": {
+        "tonalRamp": [
+          "oklch(15% 0.015 150)",
+          "oklch(26% 0.015 150)",
+          "oklch(38% 0.015 150)",
+          "oklch(49% 0.015 150)",
+          "oklch(61% 0.015 150)",
+          "oklch(72% 0.015 150)",
+          "oklch(84% 0.015 150)",
+          "oklch(95% 0.015 150)"
+        ],
+        "role": "neutral",
+        "displayName": "Quiet Ink"
+      },
+      "line": {
+        "tonalRamp": [
+          "oklch(15% 0.012 105)",
+          "oklch(26% 0.012 105)",
+          "oklch(38% 0.012 105)",
+          "oklch(49% 0.012 105)",
+          "oklch(61% 0.012 105)",
+          "oklch(72% 0.012 105)",
+          "oklch(84% 0.012 105)",
+          "oklch(95% 0.012 105)"
+        ],
+        "role": "neutral",
+        "displayName": "Pencil Rule"
+      },
+      "lime": {
+        "tonalRamp": [
+          "oklch(15% 0.05 115)",
+          "oklch(26% 0.05 115)",
+          "oklch(38% 0.05 115)",
+          "oklch(49% 0.05 115)",
+          "oklch(61% 0.05 115)",
+          "oklch(72% 0.05 115)",
+          "oklch(84% 0.05 115)",
+          "oklch(95% 0.05 115)"
+        ],
+        "role": "primary",
+        "displayName": "Young Leaf"
+      },
+      "red": {
+        "tonalRamp": [
+          "oklch(15% 0.13 30)",
+          "oklch(26% 0.13 30)",
+          "oklch(38% 0.13 30)",
+          "oklch(49% 0.13 30)",
+          "oklch(61% 0.13 30)",
+          "oklch(72% 0.13 30)",
+          "oklch(84% 0.13 30)",
+          "oklch(95% 0.13 30)"
+        ],
+        "role": "secondary",
+        "displayName": "Correction Red"
+      },
+      "soft": {
+        "tonalRamp": [
+          "oklch(15% 0.015 100)",
+          "oklch(26% 0.015 100)",
+          "oklch(38% 0.015 100)",
+          "oklch(49% 0.015 100)",
+          "oklch(61% 0.015 100)",
+          "oklch(72% 0.015 100)",
+          "oklch(84% 0.015 100)",
+          "oklch(95% 0.015 100)"
+        ],
+        "role": "neutral",
+        "displayName": "Warm Margin"
+      },
+      "field": {
+        "tonalRamp": [
+          "oklch(15% 0.01 95)",
+          "oklch(26% 0.01 95)",
+          "oklch(38% 0.01 95)",
+          "oklch(49% 0.01 95)",
+          "oklch(61% 0.01 95)",
+          "oklch(72% 0.01 95)",
+          "oklch(84% 0.01 95)",
+          "oklch(95% 0.01 95)"
+        ],
+        "role": "neutral",
+        "displayName": "Clean Page"
+      },
+      "secondary-text": {
+        "tonalRamp": [
+          "oklch(15% 0.03 130)",
+          "oklch(26% 0.03 130)",
+          "oklch(38% 0.03 130)",
+          "oklch(49% 0.03 130)",
+          "oklch(61% 0.03 130)",
+          "oklch(72% 0.03 130)",
+          "oklch(84% 0.03 130)",
+          "oklch(95% 0.03 130)"
+        ],
+        "role": "neutral",
+        "displayName": "Olive Annotation"
+      },
+      "primary-text": {
+        "tonalRamp": [
+          "oklch(15% 0.015 105)",
+          "oklch(26% 0.015 105)",
+          "oklch(38% 0.015 105)",
+          "oklch(49% 0.015 105)",
+          "oklch(61% 0.015 105)",
+          "oklch(72% 0.015 105)",
+          "oklch(84% 0.015 105)",
+          "oklch(95% 0.015 105)"
+        ],
+        "role": "neutral",
+        "displayName": "Light Ink"
+      },
+      "primary-hover": {
+        "tonalRamp": [
+          "oklch(15% 0.05 160)",
+          "oklch(26% 0.05 160)",
+          "oklch(38% 0.05 160)",
+          "oklch(49% 0.05 160)",
+          "oklch(61% 0.05 160)",
+          "oklch(72% 0.05 160)",
+          "oklch(84% 0.05 160)",
+          "oklch(95% 0.05 160)"
+        ],
+        "role": "primary",
+        "displayName": "Deep Forest"
+      }
+    },
+    "shadows": [],
+    "typographyMeta": {
+      "body": {
+        "purpose": "Russian lessons and English chemistry content.",
+        "displayName": "Reading Text"
+      },
+      "display": {
+        "purpose": "Home introduction.",
+        "displayName": "Editorial Display"
+      }
+    },
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1150px"
+      },
+      {
+        "name": "drawer",
+        "value": "900px"
+      },
+      {
+        "name": "stacked",
+        "value": "650px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "kind": "button",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:14px;border:1px solid transparent;border-radius:8px;padding:13px 19px;font:700 12px/1.5 Manrope,sans-serif;min-height:46px;cursor:pointer;transition:background .2s,color .2s; background:var(--green,#294b3d);color:#f7f9ee}.ds-primary:hover{background:#17392c}.ds-primary:focus-visible{outline:3px solid #8a9e40;outline-offset:4px}",
+      "name": "Primary Button",
+      "description": "Main study action.",
+      "html": "<button class=\"ds-primary\">Начать урок</button>",
+      "refersTo": "button-primary"
+    },
+    {
+      "kind": "button",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:14px;border:1px solid transparent;border-radius:8px;padding:13px 19px;font:700 12px/1.5 Manrope,sans-serif;min-height:46px;cursor:pointer;transition:background .2s,color .2s; background:transparent;border-color:#cdd5c5;color:#35513d}.ds-secondary:hover{background:#e8eddf}.ds-secondary:focus-visible{outline:3px solid #8a9e40;outline-offset:4px}",
+      "name": "Secondary Button",
+      "description": "Supporting action.",
+      "html": "<button class=\"ds-secondary\">Следующее задание</button>",
+      "refersTo": "button-secondary"
+    },
+    {
+      "kind": "input",
+      "css": ".ds-search{display:flex;align-items:center;gap:10px;background:#fffefa;border:1px solid #d9ddd0;border-radius:8px;padding:0 14px;min-height:46px;color:#56664e;font:12px Manrope,sans-serif}.ds-search input{border:0;outline:0;background:transparent;padding:12px 0;color:var(--ink,#293a32);font:inherit;width:100%}.ds-search:focus-within{outline:2px solid #78955d;outline-offset:2px}",
+      "name": "Search Field",
+      "description": "Search course content.",
+      "html": "<label class=\"ds-search\"><span>Поиск</span><input aria-label=\"Поиск\" placeholder=\"Найти тему…\"></label>",
+      "refersTo": "search-field"
+    },
+    {
+      "kind": "nav",
+      "css": ".ds-nav{display:flex;align-items:center;min-height:47px;padding:13px;border-radius:9px;background:#dfe7d5;color:#234934;font:600 12.9px Manrope,sans-serif;text-decoration:none}.ds-nav:hover{background:#e4e8da;color:var(--ink,#293a32)}.ds-nav:focus-visible{outline:3px solid #8a9e40;outline-offset:4px}",
+      "name": "Active Navigation",
+      "description": "Current workspace section.",
+      "html": "<nav><a class=\"ds-nav\" href=\"#learn\" aria-current=\"page\">Учиться</a></nav>",
+      "refersTo": "navigation-active"
+    },
+    {
+      "kind": "card",
+      "css": ".ds-question{background:#fffefa;border:1px solid #dedfd1;border-radius:14px;padding:30px;color:var(--ink,#293a32);font-family:Manrope,sans-serif}.ds-question small{color:#56664e;font-size:10px}.ds-question h2{font-size:18px;font-weight:600;line-height:1.8;letter-spacing:-.01em;margin:19px 0 0}",
+      "name": "Question Card",
+      "description": "Readable English prompt on a clean paper surface.",
+      "html": "<section class=\"ds-question\"><small>Question 1 of 25</small><h2>Which quantity remains constant in an isothermal process?</h2></section>",
+      "refersTo": "question-card"
+    },
+    {
+      "kind": "custom",
+      "css": ".ds-option{position:relative;display:flex;align-items:center;gap:14px;padding:15px 17px;border:1px solid #dce1d1;border-radius:8px;cursor:pointer;font:13px/1.7 Manrope,sans-serif;min-height:59px;background:#fffefa;color:var(--ink,#293a32)}.ds-option input{position:absolute;opacity:0;width:1px;height:1px}.ds-option:hover{background:#f0f3e8}.ds-option:has(input:focus-visible){outline:3px solid #7a945d;outline-offset:3px}.ds-option:has(input:checked){border-color:#557f45;background:#edf2e2}.ds-letter{display:grid;place-items:center;border:1px solid #dce2d3;width:28px;height:28px;border-radius:6px;font-size:10px;color:#56664e}.ds-option:has(input:checked) .ds-letter{background:#365c3a;color:#fff;border-color:#365c3a}",
+      "name": "Answer Option",
+      "description": "Keyboard-operable answer selection.",
+      "html": "<label class=\"ds-option\"><input type=\"radio\" name=\"ds-answer\"><span class=\"ds-letter\">A</span><span>Temperature</span></label>",
+      "refersTo": "answer-option"
+    }
+  ],
+  "narrative": {
+    "rules": [
+      {
+        "body": "Use color with text, icons, or selection structure so feedback never depends on hue alone.",
+        "name": "The Meaningful State Rule",
+        "section": "colors"
+      },
+      {
+        "body": "Separate study regions with rules and paper tones; do not add floating-card shadows.",
+        "name": "The Flat Workbook Rule",
+        "section": "elevation"
+      }
+    ],
+    "northStar": "The Chemistry Workbook",
+    "donts": [
+      "**Don't** add floating-card shadows or decorative dashboard chrome.",
+      "**Don't** communicate correctness only through color.",
+      "**Don't** replace readable study content with oversized metrics or ornamental imagery."
+    ],
+    "keyCharacteristics": [
+      "Cream paper and forest ink.",
+      "Editorial Lora headings paired with practical Manrope text.",
+      "Flat, ruled lists and gently rounded work surfaces.",
+      "Readable problems with explicit answer and feedback states."
+    ],
+    "overview": "CHEM101 is a calm study companion for a Russian-speaking beginner preparing for an English-language chemistry exam. Cream paper, forest ink, editorial headings, and restrained rules make each screen feel like an approachable printed workbook.\n\nThe workspace supports learning, practice, timed exams, and reviewing errors. Comfortable reading and clear task states take priority over decorative dashboard chrome. Illustrations explain chemistry; progress and feedback communicate actual study state.",
+    "dos": [
+      "**Do** preserve cream paper, forest ink, and the Lora/Manrope pairing.",
+      "**Do** use ruled lists for curriculum and review content.",
+      "**Do** retain visible keyboard focus and explicit answer-state cues.",
+      "**Do** keep problem text, chemistry notation, and solution steps readable before adding decoration."
+    ]
+  }
+}

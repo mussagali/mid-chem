@@ -188,7 +188,7 @@
     "shadows": [],
     "typographyMeta": {
       "body": {
-        "purpose": "Russian lessons and English chemistry content.",
+        "purpose": "English lessons and chemistry content.",
         "displayName": "Reading Text"
       },
       "display": {
@@ -221,7 +221,7 @@
       "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:14px;border:1px solid transparent;border-radius:8px;padding:13px 19px;font:700 12px/1.5 Manrope,sans-serif;min-height:46px;cursor:pointer;transition:background .2s,color .2s; background:var(--green,#294b3d);color:#f7f9ee}.ds-primary:hover{background:#17392c}.ds-primary:focus-visible{outline:3px solid #8a9e40;outline-offset:4px}",
       "name": "Primary Button",
       "description": "Main study action.",
-      "html": "<button class=\"ds-primary\">Начать урок</button>",
+      "html": "<button class=\"ds-primary\">Start lesson</button>",
       "refersTo": "button-primary"
     },
     {
@@ -229,7 +229,7 @@
       "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:14px;border:1px solid transparent;border-radius:8px;padding:13px 19px;font:700 12px/1.5 Manrope,sans-serif;min-height:46px;cursor:pointer;transition:background .2s,color .2s; background:transparent;border-color:#cdd5c5;color:#35513d}.ds-secondary:hover{background:#e8eddf}.ds-secondary:focus-visible{outline:3px solid #8a9e40;outline-offset:4px}",
       "name": "Secondary Button",
       "description": "Supporting action.",
-      "html": "<button class=\"ds-secondary\">Следующее задание</button>",
+      "html": "<button class=\"ds-secondary\">Next question</button>",
       "refersTo": "button-secondary"
     },
     {
@@ -237,7 +237,7 @@
       "css": ".ds-search{display:flex;align-items:center;gap:10px;background:#fffefa;border:1px solid #d9ddd0;border-radius:8px;padding:0 14px;min-height:46px;color:#56664e;font:12px Manrope,sans-serif}.ds-search input{border:0;outline:0;background:transparent;padding:12px 0;color:var(--ink,#293a32);font:inherit;width:100%}.ds-search:focus-within{outline:2px solid #78955d;outline-offset:2px}",
       "name": "Search Field",
       "description": "Search course content.",
-      "html": "<label class=\"ds-search\"><span>Поиск</span><input aria-label=\"Поиск\" placeholder=\"Найти тему…\"></label>",
+      "html": "<label class=\"ds-search\"><span>Search</span><input aria-label=\"Search\" placeholder=\"Find a topic…\"></label>",
       "refersTo": "search-field"
     },
     {
@@ -245,7 +245,7 @@
       "css": ".ds-nav{display:flex;align-items:center;min-height:47px;padding:13px;border-radius:9px;background:#dfe7d5;color:#234934;font:600 12.9px Manrope,sans-serif;text-decoration:none}.ds-nav:hover{background:#e4e8da;color:var(--ink,#293a32)}.ds-nav:focus-visible{outline:3px solid #8a9e40;outline-offset:4px}",
       "name": "Active Navigation",
       "description": "Current workspace section.",
-      "html": "<nav><a class=\"ds-nav\" href=\"#learn\" aria-current=\"page\">Учиться</a></nav>",
+      "html": "<nav><a class=\"ds-nav\" href=\"#learn\" aria-current=\"page\">Learn</a></nav>",
       "refersTo": "navigation-active"
     },
     {
@@ -290,7 +290,7 @@
       "Flat, ruled lists and gently rounded work surfaces.",
       "Readable problems with explicit answer and feedback states."
     ],
-    "overview": "CHEM101 is a calm study companion for a Russian-speaking beginner preparing for an English-language chemistry exam. Cream paper, forest ink, editorial headings, and restrained rules make each screen feel like an approachable printed workbook.\n\nThe workspace supports learning, practice, timed exams, and reviewing errors. Comfortable reading and clear task states take priority over decorative dashboard chrome. Illustrations explain chemistry; progress and feedback communicate actual study state.",
+    "overview": "CHEM101 is a calm study companion for a beginner preparing for an English-language chemistry exam. Cream paper, forest ink, editorial headings, and restrained rules make each screen feel like an approachable printed workbook.\n\nThe workspace supports learning, practice, timed exams, and reviewing errors. Comfortable reading and clear task states take priority over decorative dashboard chrome. Illustrations explain chemistry; progress and feedback communicate actual study state.",
     "dos": [
       "**Do** preserve cream paper, forest ink, and the Lora/Manrope pairing.",
       "**Do** use ruled lists for curriculum and review content.",

@@ -12,8 +12,8 @@
       {
         "n": 2,
         "text": "Consider the relevant molecular orbital diagrams to determine the correct statement from the given options below:\nA. The bond length of N₂ molecule is longer than N₂⁺ ion.\nB. O₂ is paramagnetic, whereas O₂⁺ is diamagnetic.\nC. F₂+ is more stable compared to F₂.\nD. N₂ and O₂ molecules are isoelectronic species with similar orbital diagrams.",
-        "answer": "C · при трактовке «более прочная связь»",
-        "explanation": "F₂⁺: удаляется разрыхляющий электрон, BO растёт 1→1.5. Слово stable неоднозначно: повышенный BO не доказывает глобальную химическую стабильность иона. A неверно: N₂ короче N₂⁺; B неверно: O₂⁺ тоже парамагнитен; D: N₂ и O₂ не изоэлектронны.",
+        "answer": "C · if “more stable” means a stronger bond in the model",
+        "explanation": "F₂⁺: antibonding electron is removed, BO increases 1→1.5. The word stable is ambiguous: increased BO does not prove the global chemical stability of the ion. A is incorrect: N₂ is shorter than N₂⁺; B is incorrect: O₂⁺ is also paramagnetic; D: N₂ and O₂ are not isoelectronic.",
         "issue": true
       },
       {
@@ -26,57 +26,57 @@
       {
         "n": 4,
         "text": "Estimate the boiling point of Methanol using the following reaction and the thermodynamic data provided in the Data Table:\nCH₃OH(l) ⇌ CH₃OH(g)\nA. 43 °C\nB. 63 °C\nC. 83 °C\nD. 103 °C",
-        "answer": "Недостаточно данных в файле",
-        "explanation": "Упомянутая Data Table в DOCX отсутствует. Метод: ΔH_vap=H_g−H_l, ΔS_vap=S_g−S_l, T_b≈ΔH_vap/ΔS_vap; затем вычесть 273.15. Нельзя подтверждать B только по известной температуре кипения без указанной таблицы.",
+        "answer": "There is not enough data in the file",
+        "explanation": "The mentioned Data Table is missing in DOCX. Method: ΔH_vap=H_g−H_l, ΔS_vap=S_g−S_l, T_b≈ΔH_vap/ΔS_vap; then subtract 273.15. You cannot confirm B using only a known boiling point without a table provided.",
         "issue": true
       },
       {
         "n": 5,
         "text": "Citric acid usually used as a preservative in food. Calculate the pH of a 0.50 M citric acid (H₃Cit) and determine the equilibrium concentrations of H₂Cit⁻ and Cit³⁻. Citrate (Cit) is C₆H₅O₇³⁻. Ka₁ = 7.5 × 10⁻⁴ Ka₂ = 1.7 × 10⁻⁵ Ka₃ = 4.0 × 10⁻⁷\nA. pH = 1.71, [H₂Cit⁻] = 6.35 and [Cit³⁻] = 8.45 × 10⁻⁹\nB. pH = 2.61, [H₂Cit⁻] = 0.98 and [Cit³⁻] = 1.52 × 10⁻¹²\nC. pH = 1.71, [H₂Cit⁻] = 0.48 and [Cit³⁻] = 3.51 × 10⁻¹⁰\nD. pH = 3.69, [H₂Cit⁻] = 1.89 and [Cit³⁻] = 2.68 × 10⁻¹⁴",
-        "answer": "Ни один вариант не верен полностью",
-        "explanation": "Приближение первой диссоциации: h=√(7.5×10⁻⁴×0.50)=0.01936 M, pH=1.71. [H₂Cit⁻]≈0.019 M, не 0.48 M. [HCit²⁻]≈1.7×10⁻⁵ M; [Cit³⁻]≈3.5×10⁻¹⁰ M. Вариант C ошибочно подставляет остаток исходной кислоты вместо H₂Cit⁻.",
+        "answer": "None of the options is fully correct",
+        "explanation": "First dissociation approximation: h=√(7.5×10⁻⁴×0.50)=0.01936 M, pH=1.71. [H₂Cit⁻]≈0.019 M, not 0.48 M. [HCit²⁻]≈1.7×10⁻⁵ M; [Cit³⁻]≈3.5×10⁻¹⁰ M. Option C mistakenly substitutes the remainder of the original acid for H₂Cit⁻.",
         "issue": true
       },
       {
         "n": 6,
         "text": "A gas sample containing 1.20 mol at 25 °C exerts a pressure of 320 torr. A gas is added to the same container and the temperature is increased to 40 °C. If the pressure rises to 650 torr, how many moles of the gas were added to the container?\nAssume a constant-volume container.\nA. 2.32\nB. 1.86\nC. 1.12\nD. 0.66",
-        "answer": "C · добавлено ≈ 1.12 mol",
-        "explanation": "n₂=1.20×(650/320)×(298.15/313.15)=2.321 mol; добавлено 2.321−1.20=1.121 mol.",
+        "answer": "C added ≈ 1.12 mol",
+        "explanation": "n₂=1.20×(650/320)×(298.15/313.15)=2.321 mol; added 2.321−1.20=1.121 mol.",
         "issue": false
       },
       {
         "n": 7,
         "text": "Methane (gas) reacts with dihydrogen sulfide (gas) to yield hydrogen (gas) and carbon disulfide (gas), a solvent used in the manufacturing of rayon and cellophane. Reaction requires heating to 1000 K to start forming products.\nChoose the right answer.\nA. e, a\nB. d, b\nC. b, c\nD. c, d\n\nChange / Shift:\n(a) Decrease [H₂S]: right\n(b) Increase pressure: left\n(c) Increase temperature: right\n(d) Increase [CS₂]: right\n(e) Decrease [CH₄]: right",
-        "answer": "C · утверждения b, c",
-        "explanation": "Уравнение CH₄+2H₂S⇌CS₂+4H₂: 3 mol газа слева, 5 справа. Сжатие смещает влево (b). Для эндотермического направления нагрев смещает вправо (c). Удаление реагентов смещает влево; добавление CS₂ — влево. Само требование начального нагрева не доказывает знак ΔH: здесь c предполагает эндотермичность реакции.",
+        "answer": "C statements b, c",
+        "explanation": "Equation CH₄+2H₂S⇌CS₂+4H₂: 3 mol of gas on the left, 5 on the right. Compression shifts to the left (b). For the endothermic direction, heating shifts to the right (c). Removing reactants shifts to the left; adding CS₂ - to the left. The requirement of initial heating itself does not prove the sign of ΔH: here c implies endothermicity of the reaction.",
         "issue": true
       },
       {
         "n": 8,
         "text": "Calculate Gibbs free energy for the oxidation of Lead at 0 °C, when Oxygen is present at 0.025 atm.\nUse the thermodynamic data provided in the Data Table:\nPb(s) + O₂(g) → PbO₂(s)\nA. −217.0 kJ/mol\nB. −225.4 kJ/mol\nC. −208.6 kJ/mol\nD. −192.7 kJ/mol",
-        "answer": "Недостаточно данных в файле",
-        "explanation": "Нужна Data Table для ΔH° и ΔS° либо ΔG° при 273.15 K. Q=1/0.025=40; RT ln Q≈+8.38 kJ/mol. Значит ΔG=ΔG°(273.15 K)+8.38. Численный выбор без таблицы не подтверждён.",
+        "answer": "There is not enough data in the file",
+        "explanation": "You need a Data Table for ΔH° and ΔS° or ΔG° at 273.15 K. Q=1/0.025=40; RT ln Q≈+8.38 kJ/mol. This means ΔG=ΔG°(273.15 K)+8.38. Numerical selection without a table is not confirmed.",
         "issue": true
       },
       {
         "n": 9,
         "text": "A sample of oxygen gas (O₂) effuses through a tiny hole in 100 seconds.\nUnder the same conditions, the same amount of an unknown gas effuses in 50 seconds.\nWhat is the molar mass of the unknown gas?\nA. 8 g/mol\nB. 16 g/mol\nC. 64 g/mol\nD. 128 g/mol",
         "answer": "A · 8 g/mol",
-        "explanation": "M_unknown=32×(50/100)²=8 g/mol. Лёгкий газ выходит быстрее.",
+        "explanation": "M_unknown=32×(50/100)²=8 g/mol. Light gas comes out faster.",
         "issue": false
       },
       {
         "n": 10,
         "text": "Which statement best describes the role of hybridization in the Valence Bond Theory?\nA. It is a concept used only to explain the geometry of hydrogen molecules.\nB. It involves mixing atomic orbitals of an atom to create new hybrid orbitals, which helps explain the observed geometry and bonding where simple atomic orbital explanations fail.\nC. It states that all bonds are π-bonds formed by the side-to-side overlap of p orbitals.\nD. It suggests that the electrons in the valence shell are always localized to one atom and do not participate in bonding.",
-        "answer": "B · смешивание AO одного атома",
-        "explanation": "Гибридизация объясняет направленность и геометрию связей через комбинации атомных орбиталей. Она не утверждает, что все связи π.",
+        "answer": "B · combining AOs on the same atom",
+        "explanation": "Hybridization explains the directionality and geometry of bonds through combinations of atomic orbitals. It does not claim that all bonds are π.",
         "issue": false
       },
       {
         "n": 11,
         "text": "Which is TRUE about microstates and macrostates?\nA. A macrostate has only one corresponding microstate.\nB. Entropy increases with the number of microstates for a given macrostate.\nC. Lower entropy means more microstates.\nD. A change in temperature does not change the number of microstates.",
-        "answer": "B · больше микросостояний → выше S",
-        "explanation": "S=k_B ln W. Одному макросостоянию соответствует множество микросостояний.",
+        "answer": "B more microstates → higher S",
+        "explanation": "S=k_B ln W. One macrostate corresponds to many microstates.",
         "issue": false
       },
       {
@@ -89,15 +89,15 @@
       {
         "n": 13,
         "text": "Calculate the enthalpy ΔH for the following reaction:\nCH₄(g) + NH₃(g) → HCN(g) + 3H₂(g)\nGiven the following thermochemical equations:\nN₂(g) + 3H₂(g) → 2NH₃(g)  ΔH = −91.8 kJ\nC(s) + 2H₂(g) → CH₄(g)  ΔH = −74.9 kJ\nH₂(g) + 2C(s) + N₂(g) → 2HCN(g)  ΔH = +270.3 kJ\nA. +255.94 kJ\nB. +135.47 kJ\nC. −1299.53 J\nD. −112 kJ",
-        "answer": "A · по данным получается +255.95 kJ",
-        "explanation": "Первую реакцию развернуть и разделить на 2: +45.9. Вторую развернуть: +74.9. Третью разделить на 2: +135.15. Сумма +255.95 kJ. В A указано 255.94, отличие 0.01 kJ — округление/опечатка.",
+        "answer": "A · according to the data it turns out +255.95 kJ",
+        "explanation": "Reverse the first equation and divide by 2: +45.9 kJ. Reverse the second: +74.9 kJ. Divide the third by 2: +135.15 kJ. Total: +255.95 kJ. Option A gives 255.94 kJ; the 0.01 kJ difference is a rounding or typing discrepancy.",
         "issue": true
       },
       {
         "n": 14,
         "text": "Determine at what temperature the following reaction becomes spontaneous:\nN₂(g) + H₂(g) ⇌ NH₃(g)\nUse the thermodynamic data provided in the Data Table.\nA. T > 462.3 K\nB. T > 353.8 K\nC. T > 707.7 K\nD. T > 231.2 K",
-        "answer": "Некорректная постановка и варианты",
-        "explanation": "Нужно N₂+3H₂⇌2NH₃, а не N₂+H₂⇌NH₃. Для обычных табличных данных ΔH<0, ΔS<0: выгодно при T<ΔH/ΔS. Все варианты содержат T>, поэтому неверны по направлению. Data Table отсутствует; точную границу из файла вычислить нельзя.",
+        "answer": "Flawed equation and answer choices",
+        "explanation": "You need N₂+3H₂⇌2NH₃, not N₂+H₂⇌NH₃. For normal tabular data ΔH<0, ΔS<0: beneficial for T<ΔH/ΔS. All options contain T>, so they are incorrect in direction. Data Table is missing; the exact boundary cannot be calculated from the file.",
         "issue": true
       },
       {
@@ -110,57 +110,57 @@
       {
         "n": 16,
         "text": "When applying Valence Bond Theory (VBT) to ethylene C₂H₄, which has a C=C bond, why carbon atoms are considered to be sp² hybridized?\nA. sp² hybridization is used for all carbon-containing molecules.\nB. sp2 hybridization is needed to form carbon triple bond.\nC. sp² hybridization combines one 2s and two 2p orbitals, leaving one unhybridized p orbital available to form the π bond.\nD. sp² hybridization maximize the bond angle to 180°.",
-        "answer": "C · одна p-орбиталь остаётся для π",
-        "explanation": "Одна s и две p дают три sp². Оставшиеся p обоих атомов C боковым перекрыванием дают π-связь.",
+        "answer": "C · one p-orbital remains for π",
+        "explanation": "One s and two p make three sp². The remaining p of both C atoms overlap laterally to form a π bond.",
         "issue": false
       },
       {
         "n": 17,
         "text": "For the reversible isothermal expansion of an ideal gas, which is TRUE?\nA. ΔE < 0\nB. qrev = −wrev\nC. ΔS = 0\nD. q = 0",
         "answer": "B · q_rev = −w_rev",
-        "explanation": "Идеальный газ при неизменной T имеет ΔU=0. По первому закону q+w=0. Для расширения ΔS>0, не 0.",
+        "explanation": "An ideal gas with constant T has ΔU=0. According to the first law, q+w=0. For expansion ΔS>0, not 0.",
         "issue": false
       },
       {
         "n": 18,
         "text": "Which one of the following graphs does NOT correctly represent Boyle’s law, assuming constant T and n?",
-        "answer": "B · неверен наклон P от 1/V",
-        "explanation": "Boyle: P=nRT/V. Следовательно, P прямо пропорционально 1/V: наклон положительный. Гипербола P(V) и возрастающая прямая V(1/P) верны.",
+        "answer": "B · incorrect slope for P versus 1/V",
+        "explanation": "Boyle: P=nRT/V. Therefore, P is directly proportional to 1/V: the slope is positive. The hyperbola P(V) and the increasing line V(1/P) are correct.",
         "issue": false
       },
       {
         "n": 19,
         "text": "Match the characteristic definition with its description:\nA. I-a, II-b, III-c, IV-d\nB. I-c, II-d, III-b, IV-a\nC. I-b, II-c, III-a, IV-d\nD. I-d, II-c, III-a, IV-b\n\nI: Some reactions do not proceed significantly.\nII: Same expression as K, calculated at any time.\nIII: Essentially no reactants remain.\nIV: Concentrations do not change over time.\na: Equilibrium far right; b: Equilibrium condition; c: Reaction quotient; d: Equilibrium far left.",
         "answer": "D · I-d, II-c, III-a, IV-b",
-        "explanation": "Незначительное превращение → равновесие слева. Выражение при любом составе → Q. Практически полное превращение → далеко справа. Постоянные концентрации в динамическом равновесии → equilibrium condition.",
+        "explanation": "Little conversion → equilibrium lies to the left. The expression at any composition → Q. Nearly complete conversion → equilibrium lies far to the right. Constant concentrations in dynamic equilibrium → the equilibrium condition.",
         "issue": false
       },
       {
         "n": 20,
         "text": "Select a statement that is FALSE:\nA. The magnitude of ΔG° tells us how fast the reaction occurs, the large negative value of ΔG° indicates that the reaction will go very fast.\nB. The sign of ΔG° tells us the direction of a process, positive ΔG° indicates that the reaction is spontaneous in the reverse direction.\nC. For any reaction at equilibrium, ΔG = 0.\nD. Exothermic reactions result in positive change of entropy of the surroundings.",
-        "answer": "A · неверно утверждение о скорости",
-        "explanation": "ΔG° не определяет скорость. Реакция с большой отрицательной ΔG° может идти медленно из-за большого барьера активации. Утверждение B понимается именно для стандартных условий; для произвольного состава направление задаёт ΔG.",
+        "answer": "A · the statement about reaction rate is incorrect",
+        "explanation": "ΔG° does not determine speed. A reaction with a large negative ΔG° can proceed slowly due to the large activation barrier. Statement B is understood specifically for standard conditions; for an arbitrary composition, the direction is specified by ΔG.",
         "issue": true
       },
       {
         "n": 21,
         "text": "Which of the following statements best explains why the volume correction term (−nb) is used when comparing ideal gas behavior to real gas behavior?\nA. Gas molecules repel each other strongly at high temperature.\nB. Gas molecules occupy significant volume at high pressure.\nC. The container expands due to molecular collisions.\nD. The pressure decreases as gas molecules are compressed.",
-        "answer": "B · молекулы занимают объём",
-        "explanation": "V−nb — доступный объём движения с учётом конечного размера частиц. За притяжение отвечает a.",
+        "answer": "B · molecules occupy volume",
+        "explanation": "V−nb is the available volume of motion taking into account the finite particle size. A is responsible for attraction.",
         "issue": false
       },
       {
         "n": 22,
         "text": "VSEPR Theory predicts molecular geometry based on the arrangement of electron domains.\nWhich statement is TRUE regarding electron domains?\nA. Only bonding pairs count as electron domains.\nB. A lone pair counts as one electron domain, but a triple bond counts as three.\nC. Both a lone pair and any chemical bond (single, double, or triple) count as one electron domain.\nD. The repulsion between bonds is stronger than the repulsion between lone pairs.",
-        "answer": "C · связь любой кратности и lone pair дают по одной области",
-        "explanation": "VSEPR считает направления областей электронной плотности. Тройная связь — одна область.",
+        "answer": "C · each bond, regardless of multiplicity, and each lone pair counts as one region",
+        "explanation": "VSEPR counts regions of electron density around the central atom. A triple bond is one region.",
         "issue": false
       },
       {
         "n": 23,
         "text": "Chose the CORRECT statement below:\nA. If pressure is constant, the volume of ideal gas decreases as system does work on the surroundings.\nB. If the reaction is NOT done at constant pressure, all heat transforms into internal energy, not enthalpy.\nC. Molar heat capacities of most solids and liquids can be easily predicted from simple equations.\nD. Research grade calorimeters are built from various parts which ensures that no heat being absorbed by calorimeter itself.",
-        "answer": "Нет корректного ответа",
-        "explanation": "A: при работе расширения объём растёт. B: непостоянство P само по себе не означает w=0; q=ΔU требуется отсутствие работы, например V=const и только PV-работа. C: теплоёмкости твёрдых тел/жидкостей не выводятся легко такой простой моделью. D: прибор тоже поглощает тепло.",
+        "answer": "There is no correct answer",
+        "explanation": "A: Expansion increases volume. B: Changing pressure does not imply w = 0; q = ΔU requires no work, for example constant volume with only PV work possible. C: Such a simple model does not readily give heat capacities of solids and liquids. D: The calorimeter itself also absorbs heat.",
         "issue": true
       },
       {
@@ -173,8 +173,8 @@
       {
         "n": 25,
         "text": "Select a statement that is TRUE:\nA. An exothermic reaction that has negative ΔS is spontaneous at high temperatures in the forward direction.\nB. An endothermic reaction that has positive ΔS is spontaneous at low temperatures in the forward direction.\nC. An exothermic reaction that has positive ΔS is not spontaneous at any temperatures in the forward direction.\nD. An endothermic reaction, which has negative ΔS is not spontaneous at any temperatures in the forward direction.",
-        "answer": "D · ΔH>0 и ΔS<0",
-        "explanation": "ΔG=ΔH−TΔS>0 для любой положительной T при постоянных заданных ΔH,ΔS. A неверно: экзотермическая с ΔS<0 выгодна при низких T; B — при высоких; C выгодна при всех T.",
+        "answer": "D ΔH>0 and ΔS<0",
+        "explanation": "ΔG=ΔH−TΔS>0 for any positive T with constant given ΔH,ΔS. A is incorrect: exothermic with ΔS<0 is beneficial at low T; B - at high; C is beneficial for all T.",
         "issue": false
       }
     ]
@@ -186,28 +186,28 @@
         "n": 1,
         "text": "Match the characteristic property of molecules in a gas with its description.\nI. Collision cross section\nII. Mean free path\nIII. Mean speed\nIV. Collision frequency\na. Z = number of collisions per second\nb. c̄ = product of collision frequency and mean free path\nc. σ = target area of a molecule\nd. λ = average distance travelled by a molecule between collisions\nA. I-a, II-b, III-c, IV-d\nB. I-c, II-d, III-b, IV-a\nC. I-b, II-c, III-a, IV-d\nD. I-a, II-b, III-d, IV-c",
         "answer": "B · I-c, II-d, III-b, IV-a",
-        "explanation": "σ — эффективная площадь; λ — расстояние между столкновениями; v_mean=Zλ; Z — число столкновений в секунду.",
+        "explanation": "σ—effective area; λ is the distance between collisions; v_mean=Zλ; Z is the number of collisions per second.",
         "issue": false
       },
       {
         "n": 2,
         "text": "In the reaction\nHA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq)\na conjugate base (A⁻) is defined as:\nA. The protonated form of the acid.\nB. Chemical species remained of the acid molecule (HA) after a proton is lost.\nC. The substance formed when the proton is transferred to the base (H₂O).\nD. The deprotonated form of the base.",
-        "answer": "B · остаток кислоты после потери H⁺",
-        "explanation": "HA отдаёт один протон и становится A⁻. Это сопряжённое основание.",
+        "answer": "B · the species left after an acid loses H⁺",
+        "explanation": "HA donates one proton and becomes A⁻. This is a conjugate base.",
         "issue": false
       },
       {
         "n": 3,
         "text": "A sample of 2.00 mol of an ideal gas expands from state A (PA = 2.00 atm, VA = 10.0 L) to state B (PB = 1.00 atm, VB = 30.0 L). The gas can follow two possible paths.\nPathway 1: A → C → B where PC = 2.00 atm, VC = 30.0 L\nPathway 2: A → D → B where PD = 1.00 atm, VD = 10.0 L\nCalculate the work done by the gas for each pathway. (Assume 1 L·atm = 101.325 J.)\nA. Pathway 1: −2.03 × 10³ J; Pathway 2: −4.05 × 10³ J\nB. Pathway 1: −4.05 × 10³ J; Pathway 2: −2.03 × 10³ J\nC. Pathway 1: +4.05 × 10³ J; Pathway 2: +2.03 × 10³ J\nD. Pathway 1: −6.08 × 10³ J; Pathway 2: 0 J",
-        "answer": "B · −4.05×10³ J и −2.03×10³ J",
-        "explanation": "На вертикальных участках w=0. Путь 1: −2×(30−10)×101.325=−4053 J. Путь 2: −1×20×101.325=−2026.5 J. Ответы используют химический w; буквальная величина work done by gas положительна.",
+        "answer": "B −4.05×10³ J and −2.03×10³ J",
+        "explanation": "On vertical sections w=0. Path 1: −2×(30−10)×101.325=−4053 J. Path 2: −1×20×101.325=−2026.5 J. Answers use chemical w; the literal value of work done by gas is positive.",
         "issue": true
       },
       {
         "n": 4,
         "text": "How much heat energy is needed to evaporate (at 100 °C) 3600 g of snow that is originally at −18 °C?\nΔfusH° = 6.01 kJ/mol\nΔvapH° = 40.66 kJ/mol\nCs of water = 4.18 kJ·kg⁻¹·°C⁻¹\nCs of ice = 2.11 kJ·kg⁻¹·°C⁻¹\nA. 1809 kJ\nB. 10968 kJ\nC. 1650 kJ\nD. 17756 kJ",
-        "answer": "B · около 1.097×10⁴ kJ",
-        "explanation": "Четыре вклада: 3.6×2.11×18≈136.7; (3600/18.015)×6.01≈1201; 3.6×4.18×100=1504.8; (3600/18.015)×40.66≈8125 kJ. Сумма около 10968 kJ (зависит от округления M).",
+        "answer": "B about 1.097×10⁴ kJ",
+        "explanation": "Four contributions: 3.6×2.11×18≈136.7; (3600/18.015)×6.01≈1201; 3.6×4.18×100=1504.8; (3600/18.015)×40.66≈8125 kJ. The amount is about 10968 kJ (depending on rounding M).",
         "issue": false
       },
       {
@@ -221,35 +221,35 @@
         "n": 6,
         "text": "When drawing correct resonance structures, which of these moves is allowed:\nA. lone pair to a new σ-bond.\nB. σ-bond to a new π-bond.\nC. lone pair to a new lone pair.\nD. π-bond to a new lone pair.",
         "answer": "D · π-bond → lone pair",
-        "explanation": "Допустим перенос пары из π-связи на атом при сохранении каркаса, электронов и корректного октета.",
+        "explanation": "We allow the transfer of a pair from a π bond to an atom while maintaining the framework, electrons, and the correct octet.",
         "issue": false
       },
       {
         "n": 7,
         "text": "What is the characteristic composition and function of a pH buffer solution?\nA. It is a solution of a strong acid and its conjugate base that maintains a pH of exactly 7.\nB. It is a solution of a weak acid and its conjugate base (or vice versa) that undergoes significant pH changes upon addition of strong acid/base.\nC. It is a solution of a strong base and its salt that changes pH rapidly.\nD. It is a mixture of a weak acid and its conjugate base (or vice versa), which resists large changes in pH upon addition of a small amount of strong acid or base.",
-        "answer": "D · слабая кислота и сопряжённое основание",
-        "explanation": "Буфер сопротивляется небольшим добавкам H⁺/OH⁻. Не обязан иметь pH=7 и не состоит просто из сильной кислоты.",
+        "answer": "D weak acid and conjugate base",
+        "explanation": "The buffer resists small additions of H⁺/OH⁻. Does not have to have a pH of 7 and is not simply a strong acid.",
         "issue": false
       },
       {
         "n": 8,
         "text": "For the reaction:\nSO₂(g) + NO₂(g) ⇌ SO₃(g) + NO(g)\nEquilibrium constant K = 3.75 and in the beginning of the reaction all gases were present in the equal amount: [SO₂]₀ = [NO₂]₀ = [SO₃]₀ = [NO]₀ = 0.8 M. Calculate the concentration of SO₃ at equilibrium in M.\nA. 2.5 M\nB. 6.7 M\nC. 10.8 M\nD. 1.1 M",
         "answer": "D · [SO₃] ≈ 1.1 M",
-        "explanation": "K=((0.8+x)/(0.8−x))²=3.75. x≈0.255 M, поэтому [SO₃]≈1.055 M, округлённо 1.1.",
+        "explanation": "K=((0.8+x)/(0.8−x))²=3.75. x≈0.255 M, therefore [SO₃]≈1.055 M, rounded to 1.1.",
         "issue": false
       },
       {
         "n": 9,
         "text": "The balanced combustion reaction of propane, with the enthalpy change at standard conditions, is shown below:\nC₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l)      ΔH° = −2221 kJ/mol\nIf cooking a medium-sized grill on high heat requires approximately 45500 kJ of energy, what mass of propane should be burned, assuming the heat transfer process is 80% efficient?\nA. 580 g\nB. 722 g\nC. 903 g\nD. 1129 g",
-        "answer": "D · около 1129 g",
-        "explanation": "Топливо должно выделить 45500/0.8=56875 kJ. n=56875/2221≈25.61 mol. При M≈44.1 g/mol масса ≈1129 g.",
+        "answer": "D approx. 1129 g",
+        "explanation": "The fuel should release 45500/0.8=56875 kJ. n=56875/2221≈25.61 mol. At M≈44.1 g/mol the mass is ≈1129 g.",
         "issue": false
       },
       {
         "n": 10,
         "text": "Select the statement that is TRUE:\nA. According to MOT, for HF molecule, 2s electron of F and 1s electron of H combine to create σ-bonding and σ-antibonding molecular orbitals.\nB. In MOT, as bond order increases, the bond dissociation enthalpy decreases and the bond length increases.\nC. In MOT, for diatomic molecules such as HF, atomic orbitals with wrong symmetry result in non-bonding orbitals.\nD. According to MOT, O₂²⁺ molecule will not exist.",
-        "answer": "C · неподходящая симметрия даёт несвязывающие AO",
-        "explanation": "В HF подходящая симметрия у F 2p_z с H 1s. BO растёт — связь обычно короче и прочнее. O₂²⁺ в простой MO-модели имеет BO=3.",
+        "answer": "C · unsuitable symmetry leaves AOs nonbonding",
+        "explanation": "In HF, F 2p_z has suitable symmetry to interact with H 1s. A higher bond order usually means a shorter, stronger bond. In the simple MO model, O₂²⁺ has BO = 3.",
         "issue": false
       },
       {
@@ -262,57 +262,57 @@
       {
         "n": 12,
         "text": "For the exothermic Haber process:\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)\nWhich change increases the yield of ammonia?\n(Make theoretical thermodynamic prediction).\nA. Increasing temperature.\nB. Decreasing pressure.\nC. Increasing pressure and decreasing temperature.\nD. Adding inert gas at constant pressure.",
-        "answer": "C · выше P, ниже T",
-        "explanation": "Для экзотермического синтеза аммиака охлаждение выгодно; сжатие предпочитает сторону с 2 mol газа вместо 4.",
+        "answer": "C · higher pressure and lower temperature",
+        "explanation": "For exothermic ammonia synthesis, cooling is beneficial; compression favors the side with 2 mol of gas instead of 4.",
         "issue": false
       },
       {
         "n": 13,
         "text": "35 mol of nitrogen gas passes through a membrane in 30 minutes. How long will it take for the same amount of carbon dioxide to pass through the same membrane? Give your answer to the nearest whole minute.\nA. 47 min.\nB. 19 min.\nC. 24 min.\nD. 38 min.",
         "answer": "D · 38 min",
-        "explanation": "t_CO₂=30√(44/28)≈37.61 min, до целой минуты 38.",
+        "explanation": "t_CO₂=30√(44/28)≈37.61 min, up to a whole minute 38.",
         "issue": false
       },
       {
         "n": 14,
         "text": "Which of the following diatomic molecules that undergo s-p mixing is paramagnetic?\nA. B₂²⁻\nB. N₂⁺\nC. C₂\nD. Be₂",
         "answer": "B · N₂⁺",
-        "explanation": "У N₂ все электроны спарены; удаление электрона из связывающей σ2p оставляет неспаренный электрон. C₂ и B₂²⁻ изоэлектронны и диамагнитны в этой схеме; Be₂ также не имеет неспаренных электронов.",
+        "explanation": "N₂ has all electrons paired; removing an electron from bonding σ2p leaves an unpaired electron. C₂ and B₂²⁻ are isoelectronic and diamagnetic in this diagram. Be₂ also has no unpaired electrons.",
         "issue": false
       },
       {
         "n": 15,
         "text": "A gas-mixing cylinder is filled with a mixture of He, Ne and Ar, in a 1 : 1 : 2 ratio. The total pressure in the gas-mixing cylinder is 3.29 × 10⁵ Pa. Calculate the partial pressure of helium in the mixture.\nA. 75000 Pa\nB. 82250 Pa\nC. 25000 Pa\nD. 164500 Pa",
         "answer": "B · 82250 Pa",
-        "explanation": "Всего 1+1+2=4 доли. χ_He=1/4; P_He=3.29×10⁵/4=82250 Pa.",
+        "explanation": "There are 1 + 1 + 2 = 4 parts in total. χ_He = 1/4; P_He = 3.29×10⁵/4 = 82250 Pa.",
         "issue": false
       },
       {
         "n": 16,
         "text": "A balloon filled with 19.6 moles of helium has a volume of 439 L at 0.0 °C and 1 atm pressure. At constant pressure, the temperature of the balloon is increased to 19.0 °C, causing the balloon to expand to a volume of 470 L. Determine the change in energy, ΔE, for the helium gas in the balloon. (The molar heat capacity for helium gas is 20.8 J·°C⁻¹·mol⁻¹.)\nA. +4.6 kJ\nB. −4.6 kJ\nC. +10.9 kJ\nD. −10.9 kJ",
-        "answer": "A · около +4.6 kJ",
-        "explanation": "20.8 J/(mol·K) — C_p He. C_v=C_p−R≈12.486. ΔU=19.6×12.486×19≈4649.8 J. Можно также q_p≈7746 J и w≈−31×101.325=−3141 J, получив 4605 J; разница обусловлена округлением конечного V.",
+        "answer": "A approx. +4.6 kJ",
+        "explanation": "20.8 J/(mol K) — C_p He. C_v=C_p−R≈12.486. ΔU=19.6×12.486×19≈4649.8 J. You can also q_p≈7746 J and w≈−31×101.325=−3141 J, getting 4605 J; the difference is due to rounding of the final V.",
         "issue": true
       },
       {
         "n": 17,
         "text": "When 0.200 g of a substance is burned in a bomb calorimeter, the temperature rises from 22.50 °C to 24.10 °C. If the calorimeter’s heat capacity is 3.50 × 10³ J/°C, find the energy released per mole if the molar mass is 60.0 g/mol.\nA. 1.26 × 10³ kJ/mol\nB. 1.68 × 10³ kJ/mol\nC. 2.10 × 10³ kJ/mol\nD. 3.50 × 10³ kJ/mol",
-        "answer": "B · 1.68×10³ kJ/mol выделено",
-        "explanation": "q_cal=3500×1.60=5600 J. n=0.200/60=0.003333 mol. На моль выделяется 1680 kJ, а ΔU реакции равна −1680 kJ/mol.",
+        "answer": "B · 1.68×10³ kJ/mol released",
+        "explanation": "q_cal=3500×1.60=5600 J. n=0.200/60=0.003333 mol. 1680 kJ is released per mole, and the ΔU of the reaction is −1680 kJ/mol.",
         "issue": false
       },
       {
         "n": 18,
         "text": "Which of the following compounds has the shortest bond length?\nA. F₂⁺\nB. F₂\nC. F₂²⁻\nD. F₂²⁺",
-        "answer": "D · F₂²⁺ в простой MO-модели",
-        "explanation": "Удаление двух π* электронов повышает BO от 1 у F₂ до 2 у F₂²⁺. F₂⁺ имеет BO=1.5, F₂²⁻ — 0. Сравнение относится к модели порядка связи, не гарантирует устойчивость каждого иона в произвольных условиях.",
+        "answer": "D · F₂²⁺ in a simple MO model",
+        "explanation": "Removing two π* electrons increases BO from 1 for F₂ to 2 for F₂²⁺. F₂⁺ has BO=1.5, F₂²⁻ — 0. The comparison refers to the bond order model and does not guarantee the stability of each ion under arbitrary conditions.",
         "issue": true
       },
       {
         "n": 19,
         "text": "Select the compound for which Electron Domain (E.D.) geometry and Molecular Geometry (M.G.) is the same.\nA. NH₃\nB. ClF₃\nC. BF₃\nD. O₃",
         "answer": "C · BF₃",
-        "explanation": "У B три связи и нет lone pairs, поэтому и E.D., и M.G. trigonal planar. Остальные имеют lone pairs на центральном атоме.",
+        "explanation": "B has three bonds and no lone pairs, so both electron geometry and molecular geometry are trigonal planar. The other species have lone pairs on their central atoms.",
         "issue": false
       },
       {

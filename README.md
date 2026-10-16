@@ -1,31 +1,30 @@
-# CHEM101 — подготовка к Midterm 2
+# CHEM101 — Midterm 2 preparation
 
-Готовый фронтенд на React + Vite. Бэкенд, регистрация, API-ключи и платные сервисы не нужны.
+A complete English-language study website built with React and Vite. No backend, account, API key, or paid service is required.
 
-## Что внутри
+## Included
 
-- 32 урока на русском с английскими терминами: вводная база, строение молекул, MO, газы, термохимия, равновесие, кислоты и буферы, энтропия и Гиббс.
-- 420 заданий на английском: 35 расчётных типов по 10 числовых вариантов и 70 теоретических вопросов. Это 105 типов/концептуальных вопросов с вариантами, а не 420 принципиально разных методов.
-- 10 фиксированных пробников, каждый: 25 multiple-choice вопросов, 90 минут, 100 баллов, 18 расчётных и 7 теоретических вопросов. Между пробниками ID заданий не повторяются; типы вычислений повторяются с другими числами.
-- Подробное объяснение каждого неверного варианта, пошаговое решение, ссылка на соответствующий урок.
-- История ошибок, отдельный учёт пропусков, очередь повторения, точность по темам, закладки, история попыток.
-- Таймер, флажки, переходы между вопросами, автоматическая сдача по времени. Активный пробник восстанавливается после перезагрузки.
-- Экспорт/импорт прогресса JSON. Адаптивный интерфейс для телефона и компьютера.
-- Карта всех 343 страниц восьми PDF; разбор 45 вопросов из присланных Mid и Quiz; отдельный список ошибок/неполных условий исходников.
-- Интерактивные схемы VSEPR, сравнение ионов кислорода, зависимость давления от объёма, состав буфера.
+- 32 beginner-friendly lessons: foundations, bonding and geometry, molecular orbitals, gases, thermochemistry, equilibrium, acids and buffers, entropy, and Gibbs energy.
+- 420 English practice questions with worked solutions and explanations for every incorrect choice: 35 calculation types with 10 numerical variants each, plus 70 conceptual questions. These are 105 underlying types/concept questions, not 420 unrelated methods.
+- 10 fixed mock exams, each with 25 multiple-choice questions, 90 minutes, and a score out of 100. Each contains 18 calculation questions and 7 conceptual questions. Question IDs do not repeat between exams; calculation methods recur with different numbers.
+- Mistake counts, separate unanswered-question counts, a review queue, topic accuracy, bookmarks, and attempt history.
+- A timer, flags, question navigation, automatic submission on expiry, and recovery of an active exam after reloading.
+- Progress export/import, mobile layouts, and printable results.
+- A coverage map for all 343 pages of the eight supplied PDFs, reviewed solutions to all 45 supplied Midterm/Quiz questions, and explicit notes on errors or missing data in those sources.
+- Interactive illustrations for VSEPR, oxygen ions, gas compression, and buffer composition.
 
-## Локальный запуск
+## Run locally
 
-Нужен Node.js 22.12+ или совместимая более новая версия (проверено на Node 24).
+Use Node.js 22.12+ or a compatible newer version. Tested on Node 24.
 
-Откройте терминал в папке с этим README:
+From the directory containing this README:
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Откройте локальный адрес, напечатанный Vite. Не открывайте `index.html` двойным щелчком: приложение использует JS-модули и требует HTTP-сервер.
+Open the local URL printed by Vite. Do not open `index.html` directly: the app uses JavaScript modules and needs an HTTP server.
 
 ```sh
 npm test
@@ -33,61 +32,62 @@ npm run build
 npm run preview
 ```
 
-`npm run build` создаёт статический сайт в `dist/`. Готовая сборка также включена в архив.
+The production build is written to `dist/`. Neither `dist/` nor `node_modules/` is tracked in Git; the deployment service generates them.
 
-## Загрузка на Vercel
+## Deploy to Vercel
 
-1. Распакуйте архив. Загрузите содержимое папки `chem101` в Git-репозиторий. Папку `node_modules` загружать не нужно.
-2. В Vercel создайте проект из репозитория.
-3. Если `package.json` находится в подпапке, выберите её как **Root Directory**.
-4. **Framework Preset:** Vite. **Build Command:** `npm run build`. **Output Directory:** `dist`. **Install Command:** `npm ci`.
-5. Environment Variables не нужны. Нажмите Deploy.
+1. Import the GitHub repository into Vercel.
+2. Set **Root Directory** to the directory containing `package.json` (the repository root for `mid-chem`).
+3. **Framework Preset:** Vite.
+4. **Install Command:** `npm ci`. **Build Command:** `npm run build`. **Output Directory:** `dist`.
+5. No environment variables are required. Deploy.
 
-Эти параметры также записаны в `vercel.json`. Навигация использует hash-маршруты (`/#lesson/buffer`), поэтому дополнительные серверные rewrite-правила не требуются.
+Build settings are also provided in `vercel.json`. Hash routes such as `/#lesson/buffer` work without server rewrite rules. Alternatively, run `vercel` from the project directory if you have the Vercel CLI installed.
 
-Альтернатива при установленном Vercel CLI: запустите `vercel` из папки проекта и следуйте подсказкам. Сам сайт в рамках подготовки файлов не опубликован.
+## How to study
 
-## Как учиться
+1. If chemistry is new to you, start with the three foundation lessons.
+2. Follow the lesson sequence. A “read” mark records reading, not demonstrated mastery.
+3. Practise by topic. Write the units and working before checking your answer. Checking the same answer twice does not add another attempt.
+4. Review “My mistakes”. A correct retry clears the question from the unresolved queue while retaining the historical error count.
+5. Attempt a mock exam without hints. Explanations appear after submission; results can be printed.
 
-1. Пройдите три урока вводной базы, если химии ещё не учили.
-2. Читайте темы по маршруту. Отметка «прочитано» отражает чтение, не доказанное освоение.
-3. Решайте задачи по теме, записывая единицы и ход вычислений. Проверка в практике появляется по кнопке; повторное нажатие не создаёт второй результат.
-4. Разберите очередь «Мои ошибки». Правильное повторение снимает задачу с очереди, но сохраняет исторический счётчик ошибок.
-5. Пройдите пробник без подсказок. Объяснения появятся после сдачи. Можно распечатать результат из браузера.
+Calculation questions include their constants. Numerical choices are generally rounded to three significant figures. Use a scientific calculator and distinguish `ln` from `log`.
 
-Константы указаны в расчётных условиях. Варианты обычно округлены до трёх значащих цифр. Используйте отдельный научный калькулятор; различайте `ln` и `log`.
+## Progress and timer behaviour
 
-## Хранение и поведение таймера
+Progress is stored in `localStorage` under `chem101-progress-v1`, separately for each browser and site origin. Localhost, preview, and production deployments have separate storage. Export/import transfers progress between them. Clearing browser data may erase progress. If saving is unavailable, the app displays a warning so you can export before leaving.
 
-Прогресс хранится локально в `localStorage`, ключ `chem101-progress-v1`. Он привязан к браузеру и адресу сайта: localhost, preview и production — разные хранилища. Для переноса используйте экспорт/импорт. Очистка данных браузера может удалить прогресс. Если сохранение недоступно, сайт показывает уведомление и предлагает экспорт.
+The English-language update preserves all lesson/question IDs, answer keys, exam compositions, and the storage schema. Existing progress on the same origin remains compatible.
 
-Таймер использует абсолютное время окончания. Он не ставится на паузу при смене раздела, перезагрузке или закрытии вкладки. Когда сайт закрыт, JavaScript не выполняется; просроченная попытка сдаётся при следующем открытии. Для корректной совместной работы не открывайте подготовку одновременно в нескольких вкладках: приложение предупреждает об изменении данных в другой вкладке, но не является многопользовательской системой синхронизации.
+The timer uses an absolute deadline. Switching sections, reloading, or closing the tab does not pause it. JavaScript does not run while the site is closed; an expired attempt is submitted when the site is next opened. Use one tab at a time: the app warns about changes in another tab but does not merge simultaneous edits.
 
-Пропуск в пробнике = 0 баллов и отдельный счётчик пропусков. «Пропустить без оценки» в практике не создаёт попытку. Импорт заменяет текущие данные после подтверждения и проверяет структуру, ID и соответствие результатов ответам. Перед заменой можно экспортировать старые данные.
+An unanswered exam question earns 0 points and is counted separately from an incorrect answer. “Skip without grading” in practice does not record an attempt. Import replaces current progress after confirmation and validates IDs, counters, answers, and scores. Export your current progress first if you want to keep both copies.
 
-## Материалы и ограничения
+## Sources and limitations
 
-Источники: `23CHEM101_9.pdf` … `23CHEM101_16.pdf`, `Mid 2 copy for tg.docx`, `Quiz 2 copy for tg.docx`.
+Course sources: `23CHEM101_9.pdf` through `23CHEM101_16.pdf`, `Mid 2 copy for tg.docx`, and `Quiz 2 copy for tg.docx`.
 
-Все страницы PDF извлечены и просмотрены в визуальном обзоре; рисунки и формулы сверялись с извлечённым текстом. Повторяющиеся слайды объединены. Полная карта разделов находится на сайте в «Разбор источников».
+All PDF pages were extracted and inspected in visual overview; figures and equations were checked against the extracted text. Repeated slides were consolidated. The website’s “Source review” section maps the complete lecture coverage.
 
-Пример Mid включает энтропию, ΔG и обратимое изотермическое расширение. В восьми PDF эти темы лишь анонсированы, поэтому они добавлены отдельным учебным блоком по требованиям примера и базовым термодинамическим соотношениям. В DOCX отсутствует упомянутая Data Table. В заданиях сайта все численные данные заданы явно; отсутствующие ответы исходника не выдуманы.
+The Midterm example includes entropy, Gibbs energy, and reversible isothermal expansion. The eight PDFs only announce these topics, so supplementary lessons cover the methods needed for the example. The referenced Data Table is absent from the supplied DOCX. Website questions provide the required numerical data explicitly; missing source answers are not invented.
 
-В копиях обнаружены ошибки: некорректная концентрация для лимонной кислоты, неправильная сторона температурного неравенства, неуравненная реакция, неподходящее утверждение о q=ΔU, неточности ICE и калориметрии. Они подробно отмечены на сайте.
+Source issues include a wrong citric-acid species concentration, an incorrect temperature inequality, an unbalanced reaction, an invalid statement about q = ΔU, and errors in ICE/calorimetry examples. These are explained on the site. The source questions retain their original English wording; the surrounding review identifies flaws.
 
-Пробники авторские и ориентированы на предоставленные примеры. Это инструмент подготовки, не обещание 100/100 и не подтверждение будущего содержания экзамена. После получения отсутствующей таблицы или дополнительных лекций содержимое можно расширить.
+The mock exams are original practice based on the supplied materials. They do not guarantee a grade or the contents of a future exam. Additional lectures or the missing data table can be incorporated later.
 
-Исходные PDF целиком не включены в публикацию. В сайт включены текст 45 предоставленных примеров и изображение вопроса о законе Бойля. Шрифты Manrope и Lora хранятся локально; их OFL-лицензии находятся в `public/fonts/`. Lucide используется по ISC-лицензии. Сайт не отправляет учебный прогресс на сервер и не содержит аналитики.
+Original PDFs are not published in full. The site includes the 45 supplied example questions and the Boyle’s-law graph image. Manrope and Lora fonts are served locally, with OFL licences in `public/fonts/`. Lucide uses the ISC licence. There is no analytics or server-side collection of study progress.
 
-## Структура проекта
+## Project structure
 
-- `src/curriculum.js` — уроки, формулы, словарь.
-- `src/questions.js` — детерминированные генераторы вариантов, теоретические вопросы, состав пробников.
-- `src/engine.js` — оценивание, статистика, проверка импортируемых данных.
-- `src/main.jsx` — интерфейс и маршруты.
-- `src/sources.js` — карта лекций, исправления и справочные ссылки.
-- `src/examples.json` — исходные вопросы Mid/Quiz и проверенные разборы.
-- `src/style.css` — адаптивное оформление и печатные стили.
-- `tests/engine.test.js` — проверки оценивания, импорта, банка и независимые численные ориентиры для 35 типов.
+- `src/curriculum.js` — lessons, formula sheet, and glossary.
+- `src/questions.js` — deterministic numerical variants, conceptual questions, and mock exam composition.
+- `src/engine.js` — grading, statistics, and progress import validation.
+- `src/main.jsx` — interface, routes, and browser persistence.
+- `src/sources.js` — lecture map, corrections, and supporting references.
+- `src/examples.json` — supplied Midterm/Quiz questions and reviewed solutions.
+- `src/style.css` — responsive layout and print styles.
+- `tests/engine.test.js` — bank integrity, independent numerical benchmarks, grading, persistence, and import validation.
+- `DESIGN.md` and `.impeccable/design.json` — visual system documentation.
 
-Проверено: production-сборка; 7 автоматических тестов; сценарии в реальном Chromium/Edge на ширинах 1440 и 390 px — ответы, ошибки, исправление ошибки, восстановление пробника, баллы, экспорт/импорт, истечение времени и отсутствие горизонтального переполнения основных разделов.
+Validation: production build, seven automated tests, and browser scenarios at desktop/mobile widths covering practice, mistake correction, exam restoration, grading, export/import, timer expiry, and responsive layouts. Translation checks also confirm that all 420 original prompts, choices, answer keys, and exam assignments remain unchanged.

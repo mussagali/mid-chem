@@ -95,7 +95,7 @@ components:
 
 **Creative North Star: "The Chemistry Workbook"**
 
-CHEM101 is a calm study companion for a Russian-speaking beginner preparing for an English-language chemistry exam. Cream paper, forest ink, editorial headings, and restrained rules make each screen feel like an approachable printed workbook.
+CHEM101 is a calm study companion for a beginner preparing for an English-language chemistry exam. Cream paper, forest ink, editorial headings, and restrained rules make each screen feel like an approachable printed workbook.
 
 The workspace supports learning, practice, timed exams, and reviewing errors. Comfortable reading and clear task states take priority over decorative dashboard chrome. Illustrations explain chemistry; progress and feedback communicate actual study state.
 
@@ -133,7 +133,7 @@ The palette combines warm paper neutrals with botanical greens and a restrained 
 **Display Font:** Lora, with serif fallback.
 **Body Font:** Manrope, with sans-serif fallback.
 
-Lora supplies the patient editorial voice; Manrope keeps mixed Russian and English instructions, numbers, and controls legible. The source uses a 15px root size and several purpose-specific sizes rather than a strict modular scale.
+Lora supplies the patient editorial voice; Manrope keeps English instructions, numbers, and controls legible. The source uses a 15px root size and several purpose-specific sizes rather than a strict modular scale.
 
 ### Hierarchy
 - **Display:** home introduction, with responsive overrides at the documented breakpoints.
